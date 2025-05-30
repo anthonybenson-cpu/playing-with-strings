@@ -17,12 +17,12 @@ Your task is to write a series of functions that execute the following tasks:
   * Examples:
     * xify('hello') -> 'xxxxx'
     * xify('hi there') -> 'xxxxxxxx'
-* `yellingChars` - returns the given string with an exclamation point after each character
+* yellingChars - returns the given string with an exclamation point after each character
   * Examples:
     * yellingChars('goodness') -> 'g!o!o!d!n!e!s!s!'
     * yellingChars('oh hello') -> 'o!h! !h!e!l!l!o!'
   * Hints:
-    * We can add more than one thing to the string each time through the loop. In this case, it's the current character AND an exlamation point.
+    * We can add more than one thing to the string each time through the loop. In this case, it's the current character AND an exlamation point. 
 * `indexedChars` - adds the index of each character before that character in the given string
   * Examples:
     * indexedChars('hello') -> '0h1e2l3l4o'
